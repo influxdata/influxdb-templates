@@ -1,5 +1,5 @@
 {
-  "name": "influxdb-templates",
+  "name": "@influxdata/influxdb-templates",
   "version": "0.0.1",
   "description": "Extracted templates from influxdb 2.0 ui",
   "main": "index.js",
