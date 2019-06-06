@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1",
-    "name": "Nginx-Template",
+    "name": "Nginx",
     "description": "template created from dashboard: Nginx"
   },
   "content": {
