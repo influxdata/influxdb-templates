@@ -1,15 +1,15 @@
 {
   "meta": {
     "version": "1",
-    "name": "Kubernates-Template",
-    "description": "template created from dashboard: Kubernates"
+    "name": "Kubernetes",
+    "description": "template created from dashboard: Kubernetes"
   },
   "content": {
     "data": {
       "type": "dashboard",
       "attributes": {
-        "name": "Kubernates",
-        "description": "A collection of useful visualizations for monitoring your Kubernates"
+        "name": "Kubernetes",
+        "description": "A collection of useful visualizations for monitoring your Kubernetes"
       },
       "relationships": {
         "label": {

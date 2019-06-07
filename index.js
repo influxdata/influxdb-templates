@@ -5,5 +5,5 @@ module.exports = {
   redis: require('./templates/redis.json'),
   docker: require('./templates/docker.json'),
   nginx: require('./templates/nginx.json'),
-  kubernatesInventory: require('./templates/kubernatesInventory.json')
+  kubernetes: require('./templates/kubernetes.json')
 }
