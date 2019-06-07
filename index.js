@@ -4,5 +4,6 @@ module.exports = {
   localMetrics: require('./templates/localMetrics.json'),
   redis: require('./templates/redis.json'),
   docker: require('./templates/docker.json'),
-  nginx: require('./templates/nginx.json')
+  nginx: require('./templates/nginx.json'),
+  kubernatesInventory: require('./templates/kubernatesInventory.json')
 }
