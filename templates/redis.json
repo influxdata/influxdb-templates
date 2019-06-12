@@ -2,7 +2,8 @@
   "meta": {
     "version": "1",
     "name": "Redis",
-    "description": "template created from dashboard: Redis"
+    "description": "template created from dashboard: Redis",
+    "type": "dashboard"
   },
   "content": {
     "data": {
