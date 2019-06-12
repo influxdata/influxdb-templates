@@ -339,7 +339,7 @@
       "type": "single-stat",
       "queries": [
        {
-        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> window(period: 1h)\n  |> last()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> map(fn: (r) => float(v: r._value) / 86400.0, mergeKey: true)\n  |> yield(name: \"last\")\n  \n  \n  ",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n   |> last()\n   |> map(fn: (r) => r._value / 86400, mergeKey: true)\n  |> yield(name: \"last\")",
         "editMode": "advanced",
         "name": "",
         "builderConfig": {
