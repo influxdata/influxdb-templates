@@ -384,7 +384,7 @@
       "type": "single-stat",
       "queries": [
        {
-        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"n_cpus\")\n  |> window(period: v.windowPeriod)\n  |> last()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> yield(name: \"last\")",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"n_cpus\")\n  |> last()\n  |> yield(name: \"last\")",
         "editMode": "advanced",
         "name": "",
         "builderConfig": {
