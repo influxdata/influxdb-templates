@@ -2,7 +2,8 @@
   "meta": {
     "version": "1",
     "name": "Nginx",
-    "description": "template created from dashboard: Nginx"
+    "description": "template created from dashboard: Nginx",
+    "type": "dashboard"
   },
   "content": {
     "data": {
