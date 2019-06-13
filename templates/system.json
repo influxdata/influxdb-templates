@@ -429,7 +429,8 @@
       "type": "single-stat",
       "queries": [
        {
-        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"load1\")\n  |> window(period: v.windowPeriod)\n  |> mean()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> yield(name: \"mean\")",
+
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"load1\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> last()\n  |> yield(name: \"mean\")",
         "editMode": "advanced",
         "name": "",
         "builderConfig": {
