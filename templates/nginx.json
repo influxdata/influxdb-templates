@@ -432,7 +432,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> map(fn: (r) => float(v: r._value) / 1024.0 / 1024.0 / 1024.0, mergeKey: true)\n  yield(name: \"last\")\n  ",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> last()\n  |> map(fn: (r) => float(v: r._value) / 1024.0 / 1024.0 / 1024.0, mergeKey: true)\n  yield(name: \"last\")\n  ",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -551,7 +551,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> map(fn: (r) => float(v: r._value) / 86400.0, mergeKey: true)\n  |> yield(name: \"last\")\n\n ",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> last()\n  |> map(fn: (r) => float(v: r._value) / 86400.0, mergeKey: true)\n  |> yield(name: \"last\")\n\n ",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -846,7 +846,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"n_cpus\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> yield(name: \"last\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"n_cpus\")\n  |> last()\n  |> yield(name: \"last\")",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {

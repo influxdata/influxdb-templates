@@ -393,7 +393,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_cpu_cores\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> yield(name: \"last\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_cpu_cores\")\n  |> last()\n  |> yield(name: \"last\")",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -441,7 +441,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"capacity_cpu_cores\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> yield(name: \"last\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"capacity_cpu_cores\")\n  |> last()\n  |> yield(name: \"last\")",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -489,7 +489,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_pods\")\n\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> yield(name: \"last\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_pods\")\n\n  |> last()\n  |> yield(name: \"last\")",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -679,7 +679,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n\n  |> filter(fn: (r) => r._field == \"allocatable_pods\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> yield(name: \"last\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n\n  |> filter(fn: (r) => r._field == \"allocatable_pods\")\n  |> last()\n  |> yield(name: \"last\")",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -881,7 +881,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_deployment\")\n  |> filter(fn: (r) => r._field == \"replicas_available\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> yield(name: \"last\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_deployment\")\n  |> filter(fn: (r) => r._field == \"replicas_available\")\n  |> last()\n  |> yield(name: \"last\")",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -1001,7 +1001,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_memory_bytes\")\n  |> sort(columns: [\"_time\"])\n  |> last()\n  |> map(fn: (r) => r._value / 1000000000, mergeKey: true)\n  |> yield(name: \"last\")\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_memory_bytes\")\n  |> last()\n  |> map(fn: (r) => r._value / 1000000000, mergeKey: true)\n  |> yield(name: \"last\")\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
