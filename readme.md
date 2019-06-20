@@ -1,3 +1,11 @@
-# Influxdb Template
+# InfluxDB Templates
 
-Templates extracted from influxdb's ui
+This repo is a collection of [templates](https://v2.docs.influxdata.com/v2.0/visualize-data/templates/) used in the InfluxDB UI.
+
+## Development
+
+To release a new version of these templates via npm, run:
+
+```
+make publish
+```

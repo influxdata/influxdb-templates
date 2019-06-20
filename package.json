@@ -1,8 +1,9 @@
 {
   "name": "@influxdata/influxdb-templates",
-  "version": "0.0.1",
-  "description": "Extracted templates from influxdb 2.0 ui",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Templates for the InfluxDB 2.0 UI",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/influxdata/influxdb-templates/issues"
   },
-  "homepage": "https://github.com/influxdata/influxdb-templates#readme"
+  "homepage": "https://github.com/influxdata/influxdb-templates#readme",
+  "devDependencies": {
+    "rollup": "^1.15.6",
+    "rollup-plugin-json": "^4.0.0",
+    "version-bump-prompt": "^5.0.3"
+  }
 }
