@@ -7,5 +7,5 @@ This repo is a collection of [templates](https://v2.docs.influxdata.com/v2.0/vis
 To release a new version of these templates via npm, run:
 
 ```
-make publish
+yarn publish --access public
 ```
