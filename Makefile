@@ -15,7 +15,7 @@ dist: node_modules $(SRC)
 	rm -rf dist
 	$(NODEBIN)/rollup -c
 
-node_modules:
-	npm install
+node_modules: package-lock.json
+	npm install --no-progress
 
 .PHONY: clean build publish
