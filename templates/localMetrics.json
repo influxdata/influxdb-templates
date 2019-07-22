@@ -1194,7 +1194,7 @@
      "arguments": {
       "type": "query",
       "values": {
-       "query": "buckets()\n  |> map(fn: (r) => r.name)\n",
+       "query": "buckets()\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n",
        "language": "flux"
       }
      },
