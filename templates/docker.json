@@ -14,12 +14,7 @@
       },
       "relationships": {
         "label": {
-          "data": [
-            {
-              "type": "label",
-              "id": "03f496047bd2c000"
-            }
-          ]
+          "data": []
         },
         "cell": {
           "data": [
@@ -108,17 +103,6 @@
       }
     },
     "included": [
-      {
-        "type": "label",
-        "id": "03f496047bd2c000",
-        "attributes": {
-          "name": "final",
-          "properties": {
-            "color": "#BF3D5E",
-            "description": ""
-          }
-        }
-      },
       {
         "id": "03f492401d52c000",
         "type": "cell",
