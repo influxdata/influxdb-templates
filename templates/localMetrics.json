@@ -1,6 +1,6 @@
 {
  "meta": {
-  "version": "1",
+  "version": "2",
   "name": "Local Metrics",
   "description": "template created from dashboard: Local Metrics",
   "type": "dashboard"
