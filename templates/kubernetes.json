@@ -607,7 +607,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\")\n  |> filter(fn: (r) => r._field == \"resource_requests_millicpu_units\")\n  |> aggregateWindow(period: v.windowPeriod, fn: mean)\n  |> yield(name: \"mean\")\n\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\")\n  |> filter(fn: (r) => r._field == \"resource_requests_millicpu_units\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> yield(name: \"mean\")\n\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -798,7 +798,7 @@
             "type": "table",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_persistentvolume\")\n\n  |> filter(fn: (r) => r._field == \"phase_type\")\n  |> group(columns: [\"host\", \"_measurement\", \"pv_name\", \"phase\" ,\"node_name\"], mode:\"by\")\n  |> last()\n  |> keep(columns: [\"pv_name\", \"phase\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_persistentvolume\")\n\n  |> filter(fn: (r) => r._field == \"phase_type\")\n  |> group(columns: [\"host\", \"_measurement\", \"pv_name\", \"phase\" ,\"node_name\"], mode:\"by\")\n  |> last()\n  |> keep(columns: [\"pv_name\", \"phase\"])",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
