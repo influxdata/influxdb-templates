@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1",
+    "version": "2",
     "name": "Redis",
     "description": "template created from dashboard: Redis",
     "type": "dashboard"
