@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "1",
+    "version": "3",
     "name": "Nginx",
     "description": "template created from dashboard: Nginx",
     "type": "dashboard"
@@ -432,7 +432,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 1024.0 / 1024.0 / 1024.0}))\n  yield(name: \"last\")\n  ",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 1024.0 / 1024.0 / 1024.0}))\n  |> yield(name: \"last\")\n  ",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -598,7 +598,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"swap\")\n  |> filter(fn: (r) => r._field == \"total\" or r._field == \"used\")\n  |> aggregateWindow(every: v.windowPeriod, mean)\n  |> yield(name: \"mean\")",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"swap\")\n  |> filter(fn: (r) => r._field == \"total\" or r._field == \"used\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> yield(name: \"mean\")",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
