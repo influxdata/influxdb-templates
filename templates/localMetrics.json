@@ -867,7 +867,7 @@
       "type": "single-stat",
       "queries": [
        {
-        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"influxdb_uptime_seconds\")\n  |> filter(fn: (r) => r._field == \"gauge\")\n  |> last()\n  |> map(fn: (r) => float(v: r._value) / 60.0 / 60.0, mergeKey: true) ",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"influxdb_uptime_seconds\")\n  |> filter(fn: (r) => r._field == \"gauge\")\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 60.0 / 60.0})) ",
         "editMode": "advanced",
         "name": "",
         "builderConfig": {

@@ -1001,7 +1001,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_memory_bytes\")\n  |> last()\n  |> map(fn: (r) => r._value / 1000000000, mergeKey: true)\n  |> yield(name: \"last\")\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"allocatable_memory_bytes\")\n  |> last()\n  |> map(fn: (r) => ({r with _value: r._value / 1000000000}))\n  |> yield(name: \"last\")\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {

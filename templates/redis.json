@@ -471,7 +471,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> last()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> map(fn: (r) => float(v: r._value) / 86400.0, mergeKey: true)\n  |> yield(name: \"last\")\n  \n  \n  ",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> last()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 86400.0}))\n  |> yield(name: \"last\")\n  \n  \n  ",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -837,7 +837,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> last()\n  |> map(fn: (r) => float(v: r._value) / 1024.0 / 1024.0 / 1024.0, mergeKey: true)\n  |> yield(name: \"last\")\n  ",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 1024.0 / 1024.0 / 1024.0}))\n  |> yield(name: \"last\")\n  ",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -1558,7 +1558,7 @@
             "type": "single-stat",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"redis\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> last()\n  |> map(fn: (r) => float(v: r._value) / 86400.0, mergeKey: true)\n  |> yield(name: \"last\")\n  \n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"redis\")\n  |> filter(fn: (r) => r._field == \"uptime\")\n  |> last()\n  |> map(fn: (r) => ({r with _value: float(v: r._value) / 86400.0}))\n  |> yield(name: \"last\")\n  \n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
