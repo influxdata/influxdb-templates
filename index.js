@@ -1,3 +1,4 @@
+export { default as apache } from "./templates/apache.json";
 export { default as docker } from "./templates/docker.json";
 export { default as gettingStarted } from "./templates/gettingStarted.json";
 export { default as github } from "./templates/github.json";
