@@ -1,0 +1,1184 @@
+{
+ "meta": {
+  "name": "Apache Data",
+  "type": "dashboard",
+  "description": "A template dashboard for use with the Apache Input Plugin in Telegraf.",
+  "version": "1"
+ },
+ "content": {
+  "data": {
+   "attributes": {
+    "description": "A dashboard for use with the Apache Input Plugin in Telegraf.",
+    "name": "Apache Data"
+   },
+   "relationships": {
+    "cell": {
+     "data": [
+      {
+       "id": "043be0d4aeeb1000",
+       "type": "cell"
+      },
+      {
+       "id": "043be26ca2ab1000",
+       "type": "cell"
+      },
+      {
+       "id": "043be29a563e0000",
+       "type": "cell"
+      },
+      {
+       "id": "043be2de273dc000",
+       "type": "cell"
+      },
+      {
+       "id": "043be31c1cbf6000",
+       "type": "cell"
+      },
+      {
+       "id": "043be3991e146000",
+       "type": "cell"
+      },
+      {
+       "id": "043be4ab9f8e8000",
+       "type": "cell"
+      },
+      {
+       "id": "043be4e154dc5000",
+       "type": "cell"
+      },
+      {
+       "id": "043be5332e146000",
+       "type": "cell"
+      },
+      {
+       "id": "043be54b96ce8000",
+       "type": "cell"
+      },
+      {
+       "id": "043be578f2ff6000",
+       "type": "cell"
+      },
+      {
+       "id": "043be5957935b000",
+       "type": "cell"
+      },
+      {
+       "id": "043be7acb1d79000",
+       "type": "cell"
+      },
+      {
+       "id": "043be80ef6d79000",
+       "type": "cell"
+      }
+     ]
+    },
+    "label": {
+     "data": [
+      {
+       "id": "043be6d68e8a3000",
+       "type": "label"
+      }
+     ]
+    },
+    "variable": {
+     "data": [
+      {
+       "id": "03f76d549a7bb000",
+       "type": "variable"
+      },
+      {
+       "id": "043be1ca4e8a3000",
+       "type": "variable"
+      }
+     ]
+    }
+   },
+   "type": "dashboard"
+  },
+  "included": [
+   {
+    "attributes": {
+     "name": "apache",
+     "properties": {
+      "color": "#326BBA",
+      "description": ""
+     }
+    },
+    "id": "043be6d68e8a3000",
+    "type": "label"
+   },
+   {
+    "attributes": {
+     "h": 2,
+     "w": 2,
+     "x": 0,
+     "y": 1
+    },
+    "id": "043be0d4aeeb1000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be0d4aeeb1000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 2,
+     "w": 2,
+     "x": 2,
+     "y": 1
+    },
+    "id": "043be26ca2ab1000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be26ca2ab1000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 2,
+     "w": 2,
+     "x": 4,
+     "y": 1
+    },
+    "id": "043be29a563e0000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be29a563e0000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 4,
+     "x": 8,
+     "y": 3
+    },
+    "id": "043be2de273dc000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be2de273dc000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 2,
+     "w": 6,
+     "x": 6,
+     "y": 1
+    },
+    "id": "043be31c1cbf6000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be31c1cbf6000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 4,
+     "x": 4,
+     "y": 3
+    },
+    "id": "043be3991e146000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be3991e146000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 4,
+     "x": 4,
+     "y": 7
+    },
+    "id": "043be4ab9f8e8000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be4ab9f8e8000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 4,
+     "x": 8,
+     "y": 7
+    },
+    "id": "043be4e154dc5000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be4e154dc5000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 3,
+     "w": 12,
+     "x": 0,
+     "y": 11
+    },
+    "id": "043be5332e146000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be5332e146000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 4,
+     "x": 0,
+     "y": 7
+    },
+    "id": "043be54b96ce8000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be54b96ce8000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 2,
+     "w": 4,
+     "x": 0,
+     "y": 5
+    },
+    "id": "043be578f2ff6000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be578f2ff6000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 2,
+     "w": 4,
+     "x": 0,
+     "y": 3
+    },
+    "id": "043be5957935b000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be5957935b000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 1,
+     "w": 12,
+     "x": 0,
+     "y": 0
+    },
+    "id": "043be7acb1d79000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be7acb1d79000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 5,
+     "w": 7,
+     "x": 0,
+     "y": 14
+    },
+    "id": "043be80ef6d79000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043be80ef6d79000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "name": "Apache Uptime",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r._field == \"Uptime\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> last()\n  |> map(fn: (r) => ({_value : r._value / 60.0 / 60.0 / 24.0}))"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": " d",
+      "type": "single-stat"
+     }
+    },
+    "id": "043be0d4aeeb1000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "CPUs",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"system\")\n  |> filter(fn: (r) => r._field == \"n_cpus\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> window(period: v.windowPeriod)\n  |> last()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> yield(name: \"last\")"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": "",
+      "type": "single-stat"
+     }
+    },
+    "id": "043be26ca2ab1000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Memory",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"total\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> last()\n  |> map(fn: (r) => ({_value: r._value / 1024 / 1024 / 1024}))"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": " GB",
+      "type": "single-stat"
+     }
+    },
+    "id": "043be29a563e0000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Load",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r._field == \"Load1\" or r._field == \"Load15\" or r._field == \"Load5\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be2de273dc000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Memory Used",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "legend": {},
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"mem\")\n  |> filter(fn: (r) => r._field == \"used_percent\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": "%",
+      "type": "line-plus-single-stat",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be31c1cbf6000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "CPU Load (System, User)",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r._field == \"CPUSystem\" or r._field == \"CPUUser\")  \n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be3991e146000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Disk IO",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"diskio\")\n  |> filter(fn: (r) => r._field == \"read_bytes\" or r._field == \"write_bytes\")  \n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> derivative(unit: v.windowPeriod, nonNegative: false)\n  |> yield(name: \"derivative\")\n"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be4ab9f8e8000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Network",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"net\")\n  |> filter(fn: (r) => r._field == \"bytes_recv\" or r._field == \"bytes_sent\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> derivative(unit: v.windowPeriod, nonNegative: false)\n  |> yield(name: \"derivative\")\n"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be4e154dc5000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Scoreboard",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> filter(fn: (r) => r._field =~ /^scboard_*/)\n"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be5332e146000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Workers",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> filter(fn: (r) => r._field == \"IdleWorkers\" or r._field == \"BusyWorkers\")\n"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be54b96ce8000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Requests per Second",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "legend": {},
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> filter(fn: (r) => r._field == \"ReqPerSec\")\n"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": " r/s",
+      "type": "line-plus-single-stat",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be578f2ff6000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Bytes per Second",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "legend": {},
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> filter(fn: (r) => r._field == \"BytesPerSec\")"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": " B/s",
+      "type": "line-plus-single-stat",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "043be5957935b000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Name this Cell",
+     "properties": {
+      "note": "#### This dashboard is designed to work with the [Apache Input Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/apache) from Telegraf to give you an overview of your Apache servers. It includes metrics from the following plugins: `system`, `mem`, `diskio`, `net`, and `apache`. An example Telegraf config can be found at the bottom of this dashboard.",
+      "shape": "chronograf-v2",
+      "type": "markdown"
+     }
+    },
+    "id": "043be7acb1d79000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Name this Cell",
+     "properties": {
+      "note": "Example Telegraf config:\n```\n[[inputs.cpu]]\n  percpu = true\n  totalcpu = true\n  collect_cpu_time = true\n  report_active = true\n[[inputs.disk]]\n[[inputs.diskio]]\n[[inputs.mem]]\n[[inputs.net]]\n[[inputs.netstat]]\n[[inputs.system]]\n\n# Read Apache status information (mod_status)\n[[inputs.apache]]\n  ## An array of URLs to gather from, must be directed at the machine\n  ## readable version of the mod_status page including the auto query string.\n  ## Default is \"http://localhost/server-status?auto\".\n  urls = [\"http://localhost:8080/server-status?auto\"]\n```",
+      "shape": "chronograf-v2",
+      "type": "markdown"
+     }
+    },
+    "id": "043be80ef6d79000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "arguments": {
+      "type": "query",
+      "values": {
+       "language": "flux",
+       "query": "buckets()\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n"
+      }
+     },
+     "name": "bucket",
+     "selected": null
+    },
+    "id": "03f76d549a7bb000",
+    "relationships": {
+     "label": {
+      "data": []
+     }
+    },
+    "type": "variable"
+   },
+   {
+    "attributes": {
+     "arguments": {
+      "type": "query",
+      "values": {
+       "language": "flux",
+       "query": "import \"influxdata/influxdb/v1\"\n\nv1.measurementTagValues(bucket: v.bucket, measurement: \"apache\", tag: \"host\")"
+      }
+     },
+     "name": "apache_host",
+     "selected": null
+    },
+    "id": "043be1ca4e8a3000",
+    "relationships": {
+     "label": {
+      "data": [
+       {
+        "id": "043be6d68e8a3000",
+        "type": "label"
+       }
+      ]
+     }
+    },
+    "type": "variable"
+   }
+  ]
+ },
+ "labels": []
+}
