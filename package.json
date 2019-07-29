@@ -12,7 +12,7 @@
     "url": "git+https://github.com/influxdata/influxdb-templates.git"
   },
   "author": "Brandon Farmer <bthesorceror@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/influxdata/influxdb-templates/issues"
   },

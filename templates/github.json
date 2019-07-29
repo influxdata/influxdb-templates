@@ -1,0 +1,890 @@
+{
+ "meta": {
+  "name": "Github Data",
+  "type": "dashboard",
+  "description": "A template dashboard for use with the Github Input Plugin in Telegraf.",
+  "version": "1"
+ },
+ "content": {
+  "data": {
+   "attributes": {
+    "description": "A dashboard for use with the Github Input Plugin in Telegraf.",
+    "name": "Github Data"
+   },
+   "relationships": {
+    "cell": {
+     "data": [
+      {
+       "id": "0432f3ee24d8d000",
+       "type": "cell"
+      },
+      {
+       "id": "0432f40237887000",
+       "type": "cell"
+      },
+      {
+       "id": "0432f4117445d000",
+       "type": "cell"
+      },
+      {
+       "id": "0432f59f05106000",
+       "type": "cell"
+      },
+      {
+       "id": "0432f869d789a000",
+       "type": "cell"
+      },
+      {
+       "id": "0433e01cbde6d000",
+       "type": "cell"
+      },
+      {
+       "id": "0433e04001c87000",
+       "type": "cell"
+      },
+      {
+       "id": "0433e04d17d18000",
+       "type": "cell"
+      },
+      {
+       "id": "0433e053c08b9000",
+       "type": "cell"
+      },
+      {
+       "id": "043bcdd8088a3000",
+       "type": "cell"
+      },
+      {
+       "id": "043bce9a892b1000",
+       "type": "cell"
+      }
+     ]
+    },
+    "label": {
+     "data": []
+    },
+    "variable": {
+     "data": [
+      {
+       "id": "03f76d549a7bb000",
+       "type": "variable"
+      },
+      {
+       "id": "0432f5323ddeb000",
+       "type": "variable"
+      }
+     ]
+    }
+   },
+   "type": "dashboard"
+  },
+  "included": [
+   {
+    "attributes": {
+     "h": 4,
+     "w": 6,
+     "x": 6,
+     "y": 8
+    },
+    "id": "0432f3ee24d8d000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0432f3ee24d8d000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 6,
+     "x": 6,
+     "y": 4
+    },
+    "id": "0432f40237887000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0432f40237887000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 6,
+     "x": 0,
+     "y": 4
+    },
+    "id": "0432f4117445d000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0432f4117445d000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 6,
+     "x": 0,
+     "y": 8
+    },
+    "id": "0432f59f05106000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0432f59f05106000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 5,
+     "w": 12,
+     "x": 0,
+     "y": 12
+    },
+    "id": "0432f869d789a000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0432f869d789a000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 3,
+     "w": 3,
+     "x": 0,
+     "y": 1
+    },
+    "id": "0433e01cbde6d000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0433e01cbde6d000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 3,
+     "w": 3,
+     "x": 3,
+     "y": 1
+    },
+    "id": "0433e04001c87000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0433e04001c87000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 3,
+     "w": 3,
+     "x": 6,
+     "y": 1
+    },
+    "id": "0433e04d17d18000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0433e04d17d18000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 3,
+     "w": 3,
+     "x": 9,
+     "y": 1
+    },
+    "id": "0433e053c08b9000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "0433e053c08b9000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 1,
+     "w": 12,
+     "x": 0,
+     "y": 0
+    },
+    "id": "043bcdd8088a3000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043bcdd8088a3000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "h": 4,
+     "w": 6,
+     "x": 0,
+     "y": 17
+    },
+    "id": "043bce9a892b1000",
+    "relationships": {
+     "view": {
+      "data": {
+       "id": "043bce9a892b1000",
+       "type": "view"
+      }
+     }
+    },
+    "type": "cell"
+   },
+   {
+    "attributes": {
+     "name": "Issues",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"open_issues\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "",
+      "yColumn": ""
+     }
+    },
+    "id": "0432f3ee24d8d000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Size (bytes)",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"size\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "0432f40237887000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Forks",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"forks\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "0432f4117445d000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Stars",
+     "properties": {
+      "axes": {
+       "x": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       },
+       "y": {
+        "base": "10",
+        "bounds": [
+         "",
+         ""
+        ],
+        "label": "",
+        "prefix": "",
+        "scale": "linear",
+        "suffix": ""
+       }
+      },
+      "colors": [],
+      "geom": "line",
+      "legend": {},
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"stars\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)"
+       }
+      ],
+      "shadeBelow": false,
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "type": "xy",
+      "xColumn": "_time",
+      "yColumn": "_value"
+     }
+    },
+    "id": "0432f59f05106000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Summary Table",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": false
+      },
+      "fieldOptions": [
+       {
+        "displayName": "",
+        "internalName": "",
+        "visible": true
+       },
+       {
+        "displayName": "result",
+        "internalName": "result",
+        "visible": true
+       },
+       {
+        "displayName": "table",
+        "internalName": "table",
+        "visible": true
+       },
+       {
+        "displayName": "name",
+        "internalName": "name",
+        "visible": true
+       },
+       {
+        "displayName": "forks",
+        "internalName": "forks",
+        "visible": true
+       },
+       {
+        "displayName": "open_issues",
+        "internalName": "open_issues",
+        "visible": true
+       },
+       {
+        "displayName": "size",
+        "internalName": "size",
+        "visible": true
+       },
+       {
+        "displayName": "stars",
+        "internalName": "stars",
+        "visible": true
+       }
+      ],
+      "note": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> aggregateWindow(every: v.windowPeriod, fn: last)\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)\n  |> last()\n  |> group()\n  |> drop(columns: [\"_start\", \"_stop\",\"_time\",\"language\",\"license\",\"owner\",\"_measurement\",\"host\"])\n  |> pivot(rowKey:[\"name\"], columnKey: [\"_field\"], valueColumn: \"_value\")\n  |> yield(name: \"last\")"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "tableOptions": {
+       "fixFirstColumn": false,
+       "sortBy": {
+        "displayName": "",
+        "internalName": "",
+        "visible": false
+       },
+       "verticalTimeAxis": true,
+       "wrapping": ""
+      },
+      "timeFormat": "YYYY-MM-DD HH:mm:ss",
+      "type": "table"
+     }
+    },
+    "id": "0432f869d789a000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Total Forks",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"forks\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)\n  |> last()\n  |> group()\n  |> aggregateWindow(every: 60s, fn: sum)\n  |> last()"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": "",
+      "type": "single-stat"
+     }
+    },
+    "id": "0433e01cbde6d000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Total Size (bytes)",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"size\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)\n  |> last()\n  |> group()\n  |> aggregateWindow(every: 60s, fn: sum)\n  |> last()"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": " b",
+      "type": "single-stat"
+     }
+    },
+    "id": "0433e04001c87000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Total Stars",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"stars\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)\n  |> last()\n  |> group()\n  |> aggregateWindow(every: 60s, fn: sum)\n  |> last()"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": "",
+      "type": "single-stat"
+     }
+    },
+    "id": "0433e04d17d18000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Total Open Issues",
+     "properties": {
+      "colors": [
+       {
+        "hex": "#00C9FF",
+        "id": "base",
+        "name": "laser",
+        "type": "text",
+        "value": 0
+       }
+      ],
+      "decimalPlaces": {
+       "digits": 2,
+       "isEnforced": true
+      },
+      "note": "",
+      "prefix": "",
+      "queries": [
+       {
+        "builderConfig": {
+         "aggregateWindow": {
+          "period": "auto"
+         },
+         "buckets": [],
+         "functions": [],
+         "tags": [
+          {
+           "key": "_measurement",
+           "values": []
+          }
+         ]
+        },
+        "editMode": "advanced",
+        "name": "",
+        "text": "from(bucket: v.bucket)\n  |> range(start: -5m)\n  |> filter(fn: (r) => r._measurement == \"github_repository\")\n  |> filter(fn: (r) => r._field == \"open_issues\")\n  |> filter(fn: (r) => if v.repo != \"*\" then r.name == v.repo else true)\n  |> last()\n  |> group()\n  |> aggregateWindow(every: 60s, fn: sum)\n  |> last()"
+       }
+      ],
+      "shape": "chronograf-v2",
+      "showNoteWhenEmpty": false,
+      "suffix": "",
+      "type": "single-stat"
+     }
+    },
+    "id": "0433e053c08b9000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Name this Cell",
+     "properties": {
+      "note": "    \n    \n#### This dashboard shows the metrics collected by the [Github Input Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/github) in Telegraf. An example configuration is in a note at the bottom of the Dashboard.",
+      "shape": "chronograf-v2",
+      "type": "markdown"
+     }
+    },
+    "id": "043bcdd8088a3000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "name": "Name this Cell",
+     "properties": {
+      "note": "Example Telegraf 1.11 Configuration:\n\n```\n[[inputs.github]]\n  ## List of repositories to monitor\n  repositories = [\n        \"influxdata/influxdb\",\n        \"influxdata/telegraf\",\n        \"influxdata/kapacitor\",\n        \"influxdata/chronograf\",\n        \"influxdata/flux\"\n  ]\n\n  ## Github API access token generated from https://github.com/settings/tokens.  \n  ## Unauthenticated requests are limited to 60 per hour.\n  access_token = \"TOKEN\"\n\n  interval = \"1m\"\n\n  ## Timeout for HTTP requests.\n  # http_timeout = \"5s\"\n```",
+      "shape": "chronograf-v2",
+      "type": "markdown"
+     }
+    },
+    "id": "043bce9a892b1000",
+    "type": "view"
+   },
+   {
+    "attributes": {
+     "arguments": {
+      "type": "query",
+      "values": {
+       "language": "flux",
+       "query": "buckets()\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n"
+      }
+     },
+     "name": "bucket",
+     "selected": null
+    },
+    "id": "03f76d549a7bb000",
+    "relationships": {
+     "label": {
+      "data": []
+     }
+    },
+    "type": "variable"
+   },
+   {
+    "attributes": {
+     "arguments": {
+      "type": "query",
+      "values": {
+       "language": "flux",
+       "query": "import \"influxdata/influxdb/v1\"\n  \nrepos = v1.measurementTagValues(bucket: v.bucket, measurement: \"github_repository\", tag: \"name\")\n\nall = v1.measurementTagValues(bucket: v.bucket, measurement: \"github_repository\", tag: \"name\") |> limit(n:1) |> set(key: \"_value\", value: \"*\")\n\nunion(tables: [repos, all])  \n  |> sort(columns: [\"_value\"], desc: false)\n  |> yield(name: \"3\")"
+      }
+     },
+     "name": "repo",
+     "selected": null
+    },
+    "id": "0432f5323ddeb000",
+    "relationships": {
+     "label": {
+      "data": []
+     }
+    },
+    "type": "variable"
+   }
+  ]
+ },
+ "labels": []
+}
