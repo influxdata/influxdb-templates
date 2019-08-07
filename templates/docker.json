@@ -1089,7 +1089,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"docker_container_mem\")\n  |> filter(fn: (r) => r._field == \"usage\")\n  |> filter(fn: (r) => r.container_name == \"my-influxdb2\")\n  |> window(period: v.windowPeriod)\n  |> mean()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> keep(columns: [\"_measurement\",\"container_name\", \"host\",\"_value\",\"_field\",\"_stop\"])\n  |> yield(name: \"mean\")\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"docker_container_mem\")\n  |> filter(fn: (r) => r._field == \"usage\")\n  |> window(period: v.windowPeriod)\n  |> mean()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> keep(columns: [\"_measurement\",\"container_name\", \"host\",\"_value\",\"_field\",\"_stop\"])\n  |> yield(name: \"mean\")\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -1149,7 +1149,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\" or r._measurement == \"docker_container_cpu\")\n  |> filter(fn: (r) => r._field == \"usage_percent\")\n  |> filter(fn: (r) => r.container_name == \"my-influxdb2\")\n  |> window(period: v.windowPeriod)\n  |> mean()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> keep(columns: [\"_measurement\",\"container_name\", \"host\",\"_value\",\"_field\",\"_stop\"])\n  |> yield(name: \"mean\")\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\" or r._measurement == \"docker_container_cpu\")\n  |> filter(fn: (r) => r._field == \"usage_percent\")\n  |> window(period: v.windowPeriod)\n  |> mean()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> keep(columns: [\"_measurement\",\"container_name\", \"host\",\"_value\",\"_field\",\"_stop\"])\n  |> yield(name: \"mean\")\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -1209,7 +1209,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"docker_container_mem\")\n  |> filter(fn: (r) => r._field == \"usage_percent\")\n  |> filter(fn: (r) => r.container_name == \"my-influxdb2\")\n  |> window(period: v.windowPeriod)\n  |> mean()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> keep(columns: [\"_measurement\",\"container_name\", \"host\",\"_value\",\"_field\",\"_stop\"])\n  |> yield(name: \"mean\")\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"docker_container_mem\")\n  |> filter(fn: (r) => r._field == \"usage_percent\")\n  |> window(period: v.windowPeriod)\n  |> mean()\n  |> group(columns: [\"_value\", \"_time\", \"_start\", \"_stop\"], mode: \"except\")\n  |> keep(columns: [\"_measurement\",\"container_name\", \"host\",\"_value\",\"_field\",\"_stop\"])\n  |> yield(name: \"mean\")\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
