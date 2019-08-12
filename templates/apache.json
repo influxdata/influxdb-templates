@@ -2,6 +2,7 @@
  "meta": {
   "name": "Apache Data",
   "type": "dashboard",
+  "templateID":"0000000000000001",
   "description": "A template dashboard for use with the Apache Input Plugin in Telegraf.",
   "version": "1"
  },

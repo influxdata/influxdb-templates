@@ -2,6 +2,7 @@
   "meta": {
     "version": "1",
     "name": "Kubernetes",
+    "templateID":"0000000000000005",
     "description": "template created from dashboard: Kubernetes",
     "type": "dashboard"
   },

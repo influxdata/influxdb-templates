@@ -2,6 +2,7 @@
  "meta": {
   "name": "Github Data",
   "type": "dashboard",
+  "templateID":"0000000000000004",
   "description": "A template dashboard for use with the Github Input Plugin in Telegraf.",
   "version": "1"
  },

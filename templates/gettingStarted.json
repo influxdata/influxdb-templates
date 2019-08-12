@@ -2,6 +2,7 @@
  "meta": {
   "version": "1",
   "name": "Getting Started with Flux",
+  "templateID":"0000000000000003",
   "description": "template created from dashboard: Getting Started with Flux",
   "type": "dashboard"
  },
