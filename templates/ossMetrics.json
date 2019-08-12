@@ -1,7 +1,7 @@
 {
  "meta": {
   "version": "1",
-  "name": "Local Metrics",
+  "name": "InfluxDB 2.0 OSS Metrics",
   "description": "template created from dashboard: Local Metrics",
   "type": "dashboard"
  },
@@ -9,8 +9,8 @@
   "data": {
    "type": "dashboard",
    "attributes": {
-    "name": "Local Metrics",
-    "description": "A collection of useful visualizations for monitoring your local InfluxDB 2 instance."
+    "name": "InfluxDB 2.0 OSS Metrics",
+    "description": "A collection of useful visualizations for monitoring your local InfluxDB 2.0 OSS instance."
    },
    "relationships": {
     "label": {
