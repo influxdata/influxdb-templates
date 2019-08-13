@@ -2,6 +2,7 @@
  "meta": {
   "version": "1",
   "name": "InfluxDB 2.0 OSS Metrics",
+  "templateID":"0000000000000007",
   "description": "template created from dashboard: Local Metrics",
   "type": "dashboard"
  },
