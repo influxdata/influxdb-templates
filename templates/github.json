@@ -1,16 +1,16 @@
 {
  "meta": {
-  "name": "Github Data",
+  "name": "GitHub Data",
   "type": "dashboard",
   "templateID":"0000000000000004",
-  "description": "A template dashboard for use with the Github Input Plugin in Telegraf.",
+  "description": "A template dashboard for use with the GitHub Input Plugin in Telegraf.",
   "version": "1"
  },
  "content": {
   "data": {
    "attributes": {
-    "description": "A dashboard for use with the Github Input Plugin in Telegraf.",
-    "name": "Github Data"
+    "description": "A dashboard for use with the GitHub Input Plugin in Telegraf.",
+    "name": "GitHub Data"
    },
    "relationships": {
     "cell": {
@@ -825,7 +825,7 @@
     "attributes": {
      "name": "Name this Cell",
      "properties": {
-      "note": "    \n    \n#### This dashboard shows the metrics collected by the [Github Input Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/github) in Telegraf. An example configuration is in a note at the bottom of the Dashboard.",
+      "note": "    \n    \n#### This dashboard shows the metrics collected by the [GitHub Input Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/github) in Telegraf. An example configuration is in a note at the bottom of the Dashboard.",
       "shape": "chronograf-v2",
       "type": "markdown"
      }
