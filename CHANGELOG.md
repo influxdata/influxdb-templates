@@ -3,6 +3,6 @@
 ### Features
 
 ## Bug Fixes
-1. [16](https://github.com/influxdata/influxdb-templates/pull/16): Remove container_name filter on per container cells in Docker template 
+1. [#16](https://github.com/influxdata/influxdb-templates/pull/16): Remove container_name filter on per container cells in Docker template 
 
 ### UI Improvements
