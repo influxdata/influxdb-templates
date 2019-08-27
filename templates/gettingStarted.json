@@ -588,7 +588,7 @@
      "properties": {
       "shape": "chronograf-v2",
       "type": "markdown",
-      "note": "# Aggregation\n\nOnce we've windowed the data, using those windows to calculate an aggregate is a common next step. We'll use the same `from()`, `range()`, and `filter()` functions as before:\n\n```flux\nfrom(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n```\n\nbut instead of using the `window()` function we'll use `aggregateWindow()`, a function written in Flux that will first window the data and then apply an aggregate:\n\n```flux\n  |> aggregateWindow(every: 15s, fn: mean)\n```\n\nChronograf lets us add additional queries in tabs in the cell editor, and we can use that functionality to graph the original data alongside the aggregated data. It's the same query, minus the `aggregateWindow` line.\n\nFor more information, check out the documentation for the [aggregateWindow](https://v2.docs.influxdata.com/v2.0/reference/flux/functions/built-in/transformations/aggregates/aggregatewindow/) function."
+      "note": "# Aggregation\n\nOnce we've windowed the data, using those windows to calculate an aggregate is a common next step. We'll use the same `from()`, `range()`, and `filter()` functions as before:\n\n```flux\nfrom(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n```\n\nbut instead of using the `window()` function we'll use `aggregateWindow()`, a function written in Flux that will first window the data and then apply an aggregate:\n\n```flux\n  |> aggregateWindow(every: 15s, fn: mean, createEmpty: false)\n```\n\nChronograf lets us add additional queries in tabs in the cell editor, and we can use that functionality to graph the original data alongside the aggregated data. It's the same query, minus the `aggregateWindow` line.\n\nFor more information, check out the documentation for the [aggregateWindow](https://v2.docs.influxdata.com/v2.0/reference/flux/functions/built-in/transformations/aggregates/aggregatewindow/) function."
      }
     }
    },
@@ -601,7 +601,7 @@
       "shape": "chronograf-v2",
       "queries": [
        {
-        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n  |> aggregateWindow(every: 30s, fn: mean)",
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n  |> aggregateWindow(every: 30s, fn: mean, createEmpty: false)",
         "editMode": "advanced",
         "name": "",
         "builderConfig": {
@@ -782,7 +782,7 @@
      "properties": {
       "shape": "chronograf-v2",
       "type": "markdown",
-      "note": "# Multiple aggregates using Flux variables\n\nOne thing to be aware of with aggregations is the way it changes the shape of our data. We'll use another feature of Flux, variables, to calculate several aggregates based on stored data. First, we'll create a variable to store the same data we've been working with so far:\n\n```flux\ncpu_usage_user = from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n```\n\nNow that the result has been stored in a variable, we can invoke it and pipe-forward the data first to an aggregateWindow function, and then to the yield function, which will let us specify what the resulting time series will be named:\n\n```flux\ncpu_usage_user \n  |> aggregateWindow(every: 15s, fn: mean)\n  |> yield(name: \"mean_result\")\n```\n\nAnd we can have a second function that applies a different aggregate:\n\n```  \ncpu_usage_user \n  |> aggregateWindow(every: 15s, fn: count)\n  |> yield(name: \"count_result\")\n```\n\nFor more information, check out the documentation for the [yield](https://v2.docs.influxdata.com/v2.0/reference/flux/functions/built-in/outputs/yield/) function."
+      "note": "# Multiple aggregates using Flux variables\n\nOne thing to be aware of with aggregations is the way it changes the shape of our data. We'll use another feature of Flux, variables, to calculate several aggregates based on stored data. First, we'll create a variable to store the same data we've been working with so far:\n\n```flux\ncpu_usage_user = from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n```\n\nNow that the result has been stored in a variable, we can invoke it and pipe-forward the data first to an aggregateWindow function, and then to the yield function, which will let us specify what the resulting time series will be named:\n\n```flux\ncpu_usage_user \n  |> aggregateWindow(every: 15s, fn: mean, createEmpty: false)\n  |> yield(name: \"mean_result\")\n```\n\nAnd we can have a second function that applies a different aggregate:\n\n```  \ncpu_usage_user \n  |> aggregateWindow(every: 15s, fn: count)\n  |> yield(name: \"count_result\")\n```\n\nFor more information, check out the documentation for the [yield](https://v2.docs.influxdata.com/v2.0/reference/flux/functions/built-in/outputs/yield/) function."
      }
     }
    },
@@ -795,7 +795,7 @@
       "shape": "chronograf-v2",
       "queries": [
        {
-        "text": "cpu_usage_user = from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n  \ncpu_usage_user\n  |> aggregateWindow(every: 30s, fn: mean)\n  |> yield(name: \"mean_result\")\n  \ncpu_usage_user\n  |> aggregateWindow(every: 30s, fn: count)\n  |> yield(name: \"count_result\")",
+        "text": "cpu_usage_user = from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"cpu\")\n  |> filter(fn: (r) => r._field == \"usage_user\")\n  |> filter(fn: (r) => r.cpu == \"cpu-total\")\n  \ncpu_usage_user\n  |> aggregateWindow(every: 30s, fn: mean, createEmpty: false)\n  |> yield(name: \"mean_result\")\n  \ncpu_usage_user\n  |> aggregateWindow(every: 30s, fn: count)\n  |> yield(name: \"count_result\")",
         "editMode": "advanced",
         "name": "",
         "builderConfig": {

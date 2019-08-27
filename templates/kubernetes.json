@@ -537,7 +537,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\")\n  |> filter(fn: (r) => r._field == \"resource_requests_memory_bytes\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> yield(name: \"mean\")\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\")\n  |> filter(fn: (r) => r._field == \"resource_requests_memory_bytes\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -608,7 +608,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\")\n  |> filter(fn: (r) => r._field == \"resource_requests_millicpu_units\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> yield(name: \"mean\")\n\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\")\n  |> filter(fn: (r) => r._field == \"resource_requests_millicpu_units\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")\n\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -1097,7 +1097,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"capacity_memory_bytes\" or r._field == \"allocatable_memory_bytes\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n  |> yield(name: \"mean\")\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_node\")\n  |> filter(fn: (r) => r._field == \"capacity_memory_bytes\" or r._field == \"allocatable_memory_bytes\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
@@ -1168,7 +1168,7 @@
             "shape": "chronograf-v2",
             "queries": [
               {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\" and  r._field == \"resource_limits_millicpu_units\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)\n\n",
+                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"kubernetes_pod_container\" and  r._field == \"resource_limits_millicpu_units\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n\n",
                 "editMode": "advanced",
                 "name": "",
                 "builderConfig": {
