@@ -692,7 +692,7 @@
         },
         "editMode": "advanced",
         "name": "",
-        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r._field == \"CPUSystem\" or r._field == \"CPUUser\")  \n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean)"
+        "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"apache\")\n  |> filter(fn: (r) => r._field == \"CPUSystem\" or r._field == \"CPUUser\")  \n  |> filter(fn: (r) => r.host == v.apache_host)\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)"
        }
       ],
       "shadeBelow": false,
