@@ -851,7 +851,7 @@
       "type": "query",
       "values": {
        "language": "flux",
-       "query": "buckets()\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n"
+       "query": "buckets()\n  |> filter(fn: (r) => r.name !~ /^_/)\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n"
       }
      },
      "name": "bucket",
