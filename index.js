@@ -7,3 +7,4 @@ export { default as ossMetrics } from "./templates/ossMetrics.json";
 export { default as nginx } from "./templates/nginx.json";
 export { default as redis } from "./templates/redis.json";
 export { default as system } from "./templates/system.json";
+export { default as jmeter } from "./templates/jmeter.json";
