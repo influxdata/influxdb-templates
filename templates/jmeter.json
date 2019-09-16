@@ -3,6 +3,7 @@
    "version": "1",
    "type": "dashboard",
    "name": "JMeter",
+   "templateID":"0000000000000010",
    "description": "template created from dashboard: JMeter"
   },
   "content": {
