@@ -1,1161 +1,1161 @@
 {
   "meta": {
-    "version": "1",
-    "type": "dashboard",
-    "name": "JMeter-Template",
-    "description": "template created from dashboard: JMeter"
+   "version": "1",
+   "type": "dashboard",
+   "name": "JMeter",
+   "description": "template created from dashboard: JMeter"
   },
   "content": {
-    "data": {
-      "type": "dashboard",
-      "attributes": {
-        "name": "JMeter",
-        "description": "A collection of useful visualizations for monitoring your JMeter using backend listener"
-      },
-      "relationships": {
-        "label": {
-          "data": []
-        },
-        "cell": {
-          "data": [
-            {
-              "type": "cell",
-              "id": "046d82e02c933000"
-            },
-            {
-              "type": "cell",
-              "id": "046d912c42133000"
-            },
-            {
-              "type": "cell",
-              "id": "046d97b15b133000"
-            },
-            {
-              "type": "cell",
-              "id": "046d97c8ccd33000"
-            },
-            {
-              "type": "cell",
-              "id": "046d9a56ebd33000"
-            },
-            {
-              "type": "cell",
-              "id": "046d9e3b9bd33000"
-            },
-            {
-              "type": "cell",
-              "id": "046da41936933000"
-            },
-            {
-              "type": "cell",
-              "id": "046da43aa6133000"
-            },
-            {
-              "type": "cell",
-              "id": "046da467ea133000"
-            },
-            {
-              "type": "cell",
-              "id": "04718aeed671a000"
-            },
-            {
-              "type": "cell",
-              "id": "04718c409f31a000"
-            }
-          ]
-        },
-        "variable": {
-          "data": [
-            {
-              "type": "variable",
-              "id": "046d9537c0133000"
-            }
-          ]
-        }
-      }
+   "data": {
+    "type": "dashboard",
+    "attributes": {
+     "name": "JMeter",
+     "description": "A collection of useful visualizations for monitoring your JMeter using backend listener"
     },
-    "included": [
-      {
-        "id": "046d82e02c933000",
+    "relationships": {
+     "label": {
+      "data": []
+     },
+     "cell": {
+      "data": [
+       {
         "type": "cell",
-        "attributes": {
-          "x": 6,
-          "y": 4,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046d82e02c933000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046d912c42133000",
+        "id": "047afc562ada5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 0,
-          "y": 7,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046d912c42133000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046d97b15b133000",
+        "id": "047afc56381a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 6,
-          "y": 7,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046d97b15b133000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046d97c8ccd33000",
+        "id": "047afc563a9a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 9,
-          "y": 7,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046d97c8ccd33000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046d9a56ebd33000",
+        "id": "047afc563dda5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 3,
-          "y": 7,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046d9a56ebd33000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046d9e3b9bd33000",
+        "id": "047afc56409a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 0,
-          "y": 0,
-          "w": 12,
-          "h": 1
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046d9e3b9bd33000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046da41936933000",
+        "id": "047afc56439a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 0,
-          "y": 4,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046da41936933000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046da43aa6133000",
+        "id": "047afc56465a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 3,
-          "y": 4,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046da43aa6133000"
-            }
-          }
-        }
-      },
-      {
-        "id": "046da467ea133000",
+        "id": "047afc56531a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 6,
-          "y": 1,
-          "w": 6,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "046da467ea133000"
-            }
-          }
-        }
-      },
-      {
-        "id": "04718aeed671a000",
+        "id": "047afc56555a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 9,
-          "y": 4,
-          "w": 3,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "04718aeed671a000"
-            }
-          }
-        }
-      },
-      {
-        "id": "04718c409f31a000",
+        "id": "047afc56579a5000"
+       },
+       {
         "type": "cell",
-        "attributes": {
-          "x": 0,
-          "y": 1,
-          "w": 6,
-          "h": 3
-        },
-        "relationships": {
-          "view": {
-            "data": {
-              "type": "view",
-              "id": "04718c409f31a000"
-            }
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046d82e02c933000",
-        "attributes": {
-          "name": "99 and 95 percentile for sucsessful request",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"pct95.0\" or r._field == \"pct99.0\")\n  |> filter(fn: (r) => r.statut == \"ok\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "ms",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "2a9b5f3c-9204-4247-afac-c10c05a48a35",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "a1d876d8-0281-4c49-bba0-4483e9b4edbc",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "782ab823-1d7b-41f0-aceb-0115a2a00f59",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046d912c42133000",
-        "attributes": {
-          "name": "Thread/Virtual User count",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"meanAT\" or r._field == \"maxAT\" or r._field == \"minAT\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "2a9b5f3c-9204-4247-afac-c10c05a48a35",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "a1d876d8-0281-4c49-bba0-4483e9b4edbc",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "782ab823-1d7b-41f0-aceb-0115a2a00f59",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046d97b15b133000",
-        "attributes": {
-          "name": "Sent bytes",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"sb\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "2",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "3833c29c-24e8-4366-ad2f-990f45463383",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046d97c8ccd33000",
-        "attributes": {
-          "name": "Received bytes",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"rb\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "2",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "3833c29c-24e8-4366-ad2f-990f45463383",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046d9a56ebd33000",
-        "attributes": {
-          "name": "Number of hits",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"hit\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "3833c29c-24e8-4366-ad2f-990f45463383",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046d9e3b9bd33000",
-        "attributes": {
-          "name": "Name this Cell",
-          "properties": {
-            "shape": "chronograf-v2",
-            "type": "markdown",
-            "note": "#### This Dashboard gives you an overview of some JMeter metrics. Check out [documentation page for configuring JMeter](https://jmeter.apache.org/usermanual/realtime-results.html) if you don't see any data below."
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046da41936933000",
-        "attributes": {
-          "name": "Max response time",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"max\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "ms",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "3833c29c-24e8-4366-ad2f-990f45463383",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046da43aa6133000",
-        "attributes": {
-          "name": "Min response time",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"min\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "ms",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "3833c29c-24e8-4366-ad2f-990f45463383",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "046da467ea133000",
-        "attributes": {
-          "name": "Avg response time",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"avg\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "3833c29c-24e8-4366-ad2f-990f45463383",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "04718aeed671a000",
-        "attributes": {
-          "name": "KO requests count",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: \"my-bucket\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"count\")\n  |> filter(fn: (r) => r.statut == \"ko\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)\n  \n\n",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "29caa0da-4641-496b-8d4e-af45a5a115a9",
-                "type": "scale",
-                "hex": "#FD7A5D",
-                "name": "Delorean",
-                "value": 0
-              },
-              {
-                "id": "79616477-7865-49f1-9187-19a38344ffb4",
-                "type": "scale",
-                "hex": "#5F1CF2",
-                "name": "Delorean",
-                "value": 0
-              },
-              {
-                "id": "fc9b6344-b885-4e6a-bb3f-6f6f6a7a3bbb",
-                "type": "scale",
-                "hex": "#4CE09A",
-                "name": "Delorean",
-                "value": 0
-              }
-            ],
-            "note": "dfsdfsdf",
-            "showNoteWhenEmpty": false,
-            "xColumn": "_time",
-            "yColumn": "_value",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "type": "view",
-        "id": "04718c409f31a000",
-        "attributes": {
-          "name": "OK requests count",
-          "properties": {
-            "shape": "chronograf-v2",
-            "queries": [
-              {
-                "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"count\")\n  |> filter(fn: (r) => r.statut == \"ok\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)\n",
-                "editMode": "advanced",
-                "name": "",
-                "builderConfig": {
-                  "buckets": [],
-                  "tags": [
-                    {
-                      "key": "_measurement",
-                      "values": []
-                    }
-                  ],
-                  "functions": [],
-                  "aggregateWindow": {
-                    "period": "auto"
-                  }
-                }
-              }
-            ],
-            "axes": {
-              "x": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "10",
-                "scale": "linear"
-              },
-              "y": {
-                "bounds": [
-                  "",
-                  ""
-                ],
-                "label": "",
-                "prefix": "",
-                "suffix": "",
-                "base": "",
-                "scale": "linear"
-              }
-            },
-            "type": "xy",
-            "legend": {},
-            "geom": "line",
-            "colors": [
-              {
-                "id": "2a9b5f3c-9204-4247-afac-c10c05a48a35",
-                "type": "scale",
-                "hex": "#31C0F6",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "a1d876d8-0281-4c49-bba0-4483e9b4edbc",
-                "type": "scale",
-                "hex": "#A500A5",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              },
-              {
-                "id": "782ab823-1d7b-41f0-aceb-0115a2a00f59",
-                "type": "scale",
-                "hex": "#FF7E27",
-                "name": "Nineteen Eighty Four",
-                "value": 0
-              }
-            ],
-            "note": "",
-            "showNoteWhenEmpty": false,
-            "xColumn": "",
-            "yColumn": "",
-            "shadeBelow": false
-          }
-        }
-      },
-      {
-        "id": "046d9537c0133000",
+        "id": "047afc5659da5000"
+       }
+      ]
+     },
+     "variable": {
+      "data": [
+       {
         "type": "variable",
-        "attributes": {
-          "name": "bucket",
-          "arguments": {
-            "type": "query",
-            "values": {
-              "query": "buckets()\n  |> filter(fn: (r) => r.name !~ /^_/)\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n",
-              "language": "flux"
-            }
-          },
-          "selected": null
-        },
-        "relationships": {
-          "label": {
-            "data": []
-          }
-        }
+        "id": "047afc56915a5000"
+       }
+      ]
+     }
+    }
+   },
+   "included": [
+    {
+     "id": "047afc562ada5000",
+     "type": "cell",
+     "attributes": {
+      "x": 6,
+      "y": 4,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc562ada5000"
+       }
       }
-    ]
+     }
+    },
+    {
+     "id": "047afc56381a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 0,
+      "y": 7,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc56381a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc563a9a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 6,
+      "y": 7,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc563a9a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc563dda5000",
+     "type": "cell",
+     "attributes": {
+      "x": 9,
+      "y": 7,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc563dda5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc56409a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 3,
+      "y": 7,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc56409a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc56439a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc56439a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc56465a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 0,
+      "y": 4,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc56465a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc56531a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 3,
+      "y": 4,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc56531a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc56555a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 6,
+      "y": 1,
+      "w": 6,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc56555a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc56579a5000",
+     "type": "cell",
+     "attributes": {
+      "x": 9,
+      "y": 4,
+      "w": 3,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc56579a5000"
+       }
+      }
+     }
+    },
+    {
+     "id": "047afc5659da5000",
+     "type": "cell",
+     "attributes": {
+      "x": 0,
+      "y": 1,
+      "w": 6,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "047afc5659da5000"
+       }
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc562ada5000",
+     "attributes": {
+      "name": "99 and 95 percentile for successful request",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"pct95.0\" or r._field == \"pct99.0\")\n  |> filter(fn: (r) => r.statut == \"ok\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "ms",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "2a9b5f3c-9204-4247-afac-c10c05a48a35",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "a1d876d8-0281-4c49-bba0-4483e9b4edbc",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "782ab823-1d7b-41f0-aceb-0115a2a00f59",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "_time",
+       "yColumn": "_value",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc56381a5000",
+     "attributes": {
+      "name": "Thread/Virtual user count",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"meanAT\" or r._field == \"maxAT\" or r._field == \"minAT\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "2a9b5f3c-9204-4247-afac-c10c05a48a35",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "a1d876d8-0281-4c49-bba0-4483e9b4edbc",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "782ab823-1d7b-41f0-aceb-0115a2a00f59",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "_time",
+       "yColumn": "_value",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc563a9a5000",
+     "attributes": {
+      "name": "Sent bytes",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"sb\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "2",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "3833c29c-24e8-4366-ad2f-990f45463383",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "",
+       "yColumn": "",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc563dda5000",
+     "attributes": {
+      "name": "Received bytes",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"rb\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "2",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "3833c29c-24e8-4366-ad2f-990f45463383",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "",
+       "yColumn": "",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc56409a5000",
+     "attributes": {
+      "name": "Number of hits",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"hit\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "3833c29c-24e8-4366-ad2f-990f45463383",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "",
+       "yColumn": "",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc56439a5000",
+     "attributes": {
+      "name": "Name this Cell",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "markdown",
+       "note": "    \n    \n#### This Dashboard gives you an overview of some JMeter metrics. Check out [documentation page for configuring JMeter](https://jmeter.apache.org/usermanual/realtime-results.html) if you don't see any data below."
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc56465a5000",
+     "attributes": {
+      "name": "Max response time",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"max\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "ms",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "3833c29c-24e8-4366-ad2f-990f45463383",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "",
+       "yColumn": "",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc56531a5000",
+     "attributes": {
+      "name": "Min response time",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"min\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "ms",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "3833c29c-24e8-4366-ad2f-990f45463383",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "",
+       "yColumn": "",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc56555a5000",
+     "attributes": {
+      "name": "Avg response time",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"avg\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "dfe15c6f-ee6c-414c-83ba-6c6f872a6b4a",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "31187c11-f03e-4d60-8dd0-9fe696d80907",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "3833c29c-24e8-4366-ad2f-990f45463383",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "",
+       "yColumn": "",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc56579a5000",
+     "attributes": {
+      "name": "KO requests count",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"count\")\n  |> filter(fn: (r) => r.statut == \"ko\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)\n  \n\n",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "29caa0da-4641-496b-8d4e-af45a5a115a9",
+         "type": "scale",
+         "hex": "#FD7A5D",
+         "name": "Delorean",
+         "value": 0
+        },
+        {
+         "id": "79616477-7865-49f1-9187-19a38344ffb4",
+         "type": "scale",
+         "hex": "#5F1CF2",
+         "name": "Delorean",
+         "value": 0
+        },
+        {
+         "id": "fc9b6344-b885-4e6a-bb3f-6f6f6a7a3bbb",
+         "type": "scale",
+         "hex": "#4CE09A",
+         "name": "Delorean",
+         "value": 0
+        }
+       ],
+       "note": "dfsdfsdf",
+       "showNoteWhenEmpty": false,
+       "xColumn": "_time",
+       "yColumn": "_value",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "047afc5659da5000",
+     "attributes": {
+      "name": "OK requests count",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: v.bucket)\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r._measurement == \"jmeter\")\n  |> filter(fn: (r) => r._field == \"count\")\n  |> filter(fn: (r) => r.statut == \"ok\")\n  |> aggregateWindow(every: 10s, fn: mean, createEmpty: true)\n",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": []
+           }
+          ],
+          "functions": [],
+          "aggregateWindow": {
+           "period": "auto"
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [
+          "",
+          ""
+         ],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "2a9b5f3c-9204-4247-afac-c10c05a48a35",
+         "type": "scale",
+         "hex": "#31C0F6",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "a1d876d8-0281-4c49-bba0-4483e9b4edbc",
+         "type": "scale",
+         "hex": "#A500A5",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        },
+        {
+         "id": "782ab823-1d7b-41f0-aceb-0115a2a00f59",
+         "type": "scale",
+         "hex": "#FF7E27",
+         "name": "Nineteen Eighty Four",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "",
+       "yColumn": "",
+       "shadeBelow": false
+      }
+     }
+    },
+    {
+     "id": "047afc56915a5000",
+     "type": "variable",
+     "attributes": {
+      "name": "bucket",
+      "arguments": {
+       "type": "query",
+       "values": {
+        "query": "buckets()\n  |> filter(fn: (r) => r.name !~ /^_/)\n  |> rename(columns: {name: \"_value\"})\n  |> keep(columns: [\"_value\"])\n",
+        "language": "flux"
+       }
+      },
+      "selected": null
+     },
+     "relationships": {
+      "label": {
+       "data": []
+      }
+     }
+    }
+   ]
   },
   "labels": []
-}
+ }
