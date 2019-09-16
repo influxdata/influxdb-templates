@@ -1,4 +1,10 @@
-## v0.8.0 [Unreleased]
+## v0.9.0 [Unreleased]
+
+### Bug Fixes
+1. [#24](https://github.com/influxdata/influxdb-templates/pull/24): Fixing bugs in JMeter dashboard
+ 
+
+## v0.8.0 [2019-09-09]
 
 ### Features
 1. [#22](https://github.com/influxdata/influxdb-templates/pull/22): Update `bucket` variable to not show system buckets
