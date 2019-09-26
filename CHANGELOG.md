@@ -1,9 +1,12 @@
-## v0.9.0 [Unreleased]
+## v0.10.0 [Unreleased]
+
+### Bug Fixes
+
+## v0.9.0 [2019-09-26]
 
 ### Bug Fixes
 1. [#24](https://github.com/influxdata/influxdb-templates/pull/24): Fixing bugs in JMeter dashboard
  
-
 ## v0.8.0 [2019-09-09]
 
 ### Features
