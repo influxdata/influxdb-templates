@@ -1,9 +1,6 @@
-**NOTICE**: this repo has been archived and left for historical reference but
-is no longer maintained.
-
 # InfluxDB Templates
 
-This repo is a collection of [templates](https://v2.docs.influxdata.com/v2.0/visualize-data/templates/) used in the InfluxDB UI.
+This repo is a collection of [templates](https://v2.docs.influxdata.com/v2.0/visualize-data/templates/) used in the InfluxDB 2.x UI.
 
 ## Development
 
