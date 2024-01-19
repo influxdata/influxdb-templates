@@ -502,7 +502,7 @@
     "type": "view",
     "id": "03d3ab2c83906000",
     "attributes": {
-     "name": "",
+     "name": "Buckets",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
@@ -547,7 +547,7 @@
     "type": "view",
     "id": "03d3ab2c85d06000",
     "attributes": {
-     "name": "",
+     "name": "Telegrafs",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
@@ -592,7 +592,7 @@
     "type": "view",
     "id": "03d3ab2c88506000",
     "attributes": {
-     "name": "",
+     "name": "Dashboards",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
@@ -637,7 +637,7 @@
     "type": "view",
     "id": "03d3ab2c8a906000",
     "attributes": {
-     "name": "",
+     "name": "Organizations",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
@@ -682,7 +682,7 @@
     "type": "view",
     "id": "03d3ab2c9b506000",
     "attributes": {
-     "name": "",
+     "name": "Scrapers",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
@@ -727,7 +727,7 @@
     "type": "view",
     "id": "03d3ab2c9d106000",
     "attributes": {
-     "name": "",
+     "name": "Tokens",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
@@ -772,7 +772,7 @@
     "type": "view",
     "id": "03d3ab2c9f106000",
     "attributes": {
-     "name": "",
+     "name": "Users",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
@@ -817,7 +817,7 @@
     "type": "view",
     "id": "03d3ab2ca1106000",
     "attributes": {
-     "name": "",
+     "name": "Tasks",
      "properties": {
       "shape": "chronograf-v2",
       "type": "single-stat",
