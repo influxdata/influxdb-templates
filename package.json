@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/influxdata/influxdb-templates#readme",
   "devDependencies": {
-    "rollup": "^1.15.6",
+    "rollup": "^2.79.2",
     "rollup-plugin-json": "^4.0.0",
     "version-bump-prompt": "^5.0.3"
   }
